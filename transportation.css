@@ -1,0 +1,236 @@
+body{
+    width: 100%;
+    height: 1500px;
+    font-family: "Hind", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    margin: 0;
+    padding:0;
+}
+.headder{
+    height: 10%;
+    /* background-color: aqua; */
+}
+.banner{
+    /* background-color: black; */
+   
+}
+.content{
+  margin: auto;
+  overflow: auto;
+  display: flex;
+  margin-left:400px;
+
+}
+.main-content{
+  text-align: left;
+}
+.footer{
+    height: 20%;
+    background-color: #172646;
+    text-align:center ;
+    margin-top:100px;
+}
+.shell{
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+    z-index: 0;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.shell .logo{
+    width: 34%;
+    height: 85%;
+    background-color:#3db7ef;
+    float: left;
+
+}
+.shell .contact{
+    width: 65%;
+    height: 70%;
+    /* background-color: brown; */
+    float:right;
+    margin: 0;
+    padding: 0;
+ 
+}
+.shell .navbar{
+    width: 65%;
+    height:30%;
+    float:right;
+    /* background-color:yellow; */
+    
+}
+.offset{
+    text-align:center;
+    list-style-type: none;
+    display:inline-flex;
+    padding:2%;
+    padding-left:100px;
+    display: inline-flex;  
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+}
+.navbar {
+    overflow: hidden;
+    background-color:#172646;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar .dropdown:hover {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+h1, .h1 {
+    /* line-height: 1.2963; */
+    /* line-height: 1.0; */
+    /* margin: 0.67em 0; */
+
+}
+.banner ul a{
+  text-decoration: none;
+}
+.banner ul a:hover{
+  text-decoration-line: underline ;
+}
+.swiper-slide-caption {
+  position: absolute;
+  right: 1250px;
+  top: 220px;
+  bottom: 0;
+  white-space: nowrap;
+  list-style-type: none;
+}
+.swiper-slide-caption .container {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.range {
+  margin-left: -15px;
+  margin-right: -15px;
+  color: #fff;
+}
+.content-menu{
+  background-color: #fff;
+  width: 250px;
+  padding:0;
+  margin-right: 40px;
+}
+.content-menu ul{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 0px;
+}
+.content-menu ul li a{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 0px;
+  color:#252525;
+}
+.content-menu a{
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+.btn1{
+  height:50px;
+    width: 250px;
+    background-color: #3db7ef;
+    color: #fff;
+    border-color:#2e7dab;
+    outline: none;
+    font-size: 1em; 
+    font-family: "Montserrat", cursive;
+}
+.btn1:hover{
+  background-color:#2e7dab;
+}
+
+.icon-footer a{
+  text-decoration: none;
+  color:#b8b8b8;
+}
+.icon-footer a:hover{
+  color:blue
+}
+.hide{
+  display: none;
+}
+.active{
+  background-color:#3db7ef ;
+  border: 1px solid #2e7dab ;
+}
+.content-menu ul li button{
+  border: none;
+}
+

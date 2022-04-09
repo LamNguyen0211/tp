@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<title>Layout Đăng kí</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="Signup.css" rel='stylesheet' type='text/css' media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+</head>
+<body>
+<div class="content">
+	<div class="content-agile1">
+		<h2 class="agileits1">Đăng kí</h2>
+	</div>
+	<div class="content-agile2" style="margin-top: 200px;margin-right: 720px;">
+		<form action="#" method="post">
+			<div class="form-control"> 
+				<input type="text" id="firstname" name="firstname" placeholder="Họ tên" title="Xin hãy viết họ tên vào đây">
+			</div>
+
+			<div class="form-control">	
+				<input type="email" id="email" name="email" placeholder="Mail@example.com" title="Xin hãy viết email hợp lệ">
+			</div>
+
+			<div class="form-control agileinfo">	
+				<input type="password" class="lock" name="password" placeholder="Mật khẩu" id="password1">
+			</div>	
+
+			<div class="form-control agileinfo">	
+				<input type="password" class="lock" name="confirm-password" placeholder="Viết lại mật khẩu" id="password2">
+			</div>			
+			
+			<a href="Login.html"><input type="button" class="register" value="Đăng Ký"></a>
+			
+		<script type="text/javascript">
+			window.onload = function () {
+				document.getElementById("password1").onchange = validatePassword;
+				document.getElementById("password2").onchange = validatePassword;
+			}
+			function validatePassword(){
+				var pass2=document.getElementById("password2").value;
+				var pass1=document.getElementById("password1").value;
+				if(pass1!=pass2)
+					document.getElementById("password2").setCustomValidity("Mật khẩu không trùng rồi bạn ơi");
+				else
+					document.getElementById("password2").setCustomValidity('');	 
+			}
+		</script>
+
+</body>
+</html>
